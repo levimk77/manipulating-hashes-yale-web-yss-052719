@@ -16,7 +16,11 @@ def first_challenge
   contacts.each do |person, data|
     data.each do |key, value|
       if value == "strawberry"
-        
+        value.delete 
+      end
+    end
+  end
+  
   contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
   return(contacts)
 
