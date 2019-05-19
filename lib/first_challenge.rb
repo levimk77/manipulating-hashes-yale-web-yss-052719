@@ -13,7 +13,10 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts.each do |person, data|
+    data.each do |key, value|
+      if value == "strawberry"
+        
   contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
   return(contacts)
 
