@@ -15,8 +15,7 @@ def first_challenge
 
   contacts.each do |person, data|
     data.each do |key, value|
-      if value == "strawberry"
-      person[:data][:key] = nil  
+      if key ==  
       end
     end
   end
